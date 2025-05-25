@@ -1,0 +1,66 @@
+﻿@model IEnumerable<CloudTrabajoBimestral.Models.Asistencia>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Asistencias</h1>
+
+<p>
+    <a asp-action="Create">Registrar Nueva Asistencia</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaAsistencia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estado)
+            </th>
+            <th>
+                Nombre de la Sesión
+            </th>
+            <th>
+                Cédula del Participante
+            </th>
+            <th>
+                Nombre del Participante
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fechaAsistencia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.estado)
+                </td>
+                <td>
+                    @(item.Sesion?.Name ?? "N/A")
+                </td>
+                <td>
+                    @(item.Inscripcion?.Participante?.Cedula ?? "N/A")
+                </td>
+                <td>
+                    @(item.Inscripcion?.Participante != null ? $"{item.Inscripcion.Participante.Name} {item.Inscripcion.Participante.Lastname}" : "N/A")
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

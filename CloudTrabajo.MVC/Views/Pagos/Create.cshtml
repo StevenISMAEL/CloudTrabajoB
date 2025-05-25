@@ -1,0 +1,62 @@
+﻿@model CloudTrabajoBimestral.Models.Pago
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Registrar Pago</h1>
+
+<h4>Pago</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" readonly value="0" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="monto" class="control-label"></label>
+                <input asp-for="monto" class="form-control" placeholder="Ejemplo: 50.00" />
+                <span asp-validation-for="monto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fechaPago" class="control-label"></label>
+                <input asp-for="fechaPago" class="form-control"  value="@DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ")" />
+                <span asp-validation-for="fechaPago" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="medioPago" class="control-label"></label>
+                <input asp-for="medioPago" class="form-control" placeholder="Ejemplo: Tarjeta de Crédito" />
+                <span asp-validation-for="medioPago" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="estado" checked /> @Html.DisplayNameFor(model => model.estado) (Completado)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="InscripcionID" class="control-label"></label>
+                <select asp-for="InscripcionID" asp-items="@ViewBag.ListaInscripciones" class="form-select">
+                    <option selected="selected" value="">-- Elija una Inscripción --</option>
+                </select>
+                <span asp-validation-for="InscripcionID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Registrar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a la Lista</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

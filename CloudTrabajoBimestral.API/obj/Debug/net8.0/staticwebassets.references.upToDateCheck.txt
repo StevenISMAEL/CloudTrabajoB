@@ -1,0 +1,3 @@
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajo.MVC\obj\Debug\net8.0\staticwebassets.build.json
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajo.MVC\obj\Debug\net8.0\staticwebassets.build.json
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajo.MVC\obj\Debug\net8.0\staticwebassets.build.json

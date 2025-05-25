@@ -1,0 +1,11 @@
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\bin\Debug\net8.0\CloudTrabajoBimestral.Models.deps.json
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\bin\Debug\net8.0\CloudTrabajoBimestral.Models.dll
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\bin\Debug\net8.0\CloudTrabajoBimestral.Models.pdb
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\CloudTrabajoBimestral.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\CloudTrabajoBimestral.Models.AssemblyInfoInputs.cache
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\CloudTrabajoBimestral.Models.AssemblyInfo.cs
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\CloudTrabajoBimestral.Models.csproj.CoreCompileInputs.cache
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\CloudTrabajoBimestral.Models.dll
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\refint\CloudTrabajoBimestral.Models.dll
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\CloudTrabajoBimestral.Models.pdb
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\ref\CloudTrabajoBimestral.Models.dll

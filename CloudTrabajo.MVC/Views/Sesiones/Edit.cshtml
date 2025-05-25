@@ -1,0 +1,63 @@
+﻿@model CloudTrabajoBimestral.Models.Sesion
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Sesion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" readonly />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="horaInicio" class="control-label"></label>
+                <input asp-for="horaInicio" class="form-control" />
+                <span asp-validation-for="horaInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="horaFin" class="control-label"></label>
+                <input asp-for="horaFin" class="form-control" />
+                <span asp-validation-for="horaFin" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EspacioID" class="control-label"></label>
+                <select asp-for="EspacioID" asp-items="@ViewBag.ListaEspacios" class="form-select">
+                    <option selected="selected" value="">-- Elija un Espacio --</option>
+                </select>
+                <span asp-validation-for="EspacioID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventoID" class="control-label"></label>
+                <select asp-for="EventoID" asp-items="@ViewBag.ListaEventos" class="form-select">
+                    <option selected="selected" value="">-- Elija un Evento --</option>
+                </select>
+                <span asp-validation-for="EventoID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

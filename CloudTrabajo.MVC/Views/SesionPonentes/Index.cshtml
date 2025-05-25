@@ -1,0 +1,48 @@
+﻿@model IEnumerable<CloudTrabajoBimestral.Models.SesionPonente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Sesiones y Ponentes</h1>
+
+<p>
+    <a asp-action="Create">Asignar Nuevo Ponente</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                Nombre de la Sesión
+            </th>
+            <th>
+                Ponente
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @(item.Sesion?.Name ?? "N/A")
+                </td>
+                <td>
+                    @(item.Ponente != null ? $"{item.Ponente.Name} {item.Ponente.Lastname} - {item.Ponente.Especialidad}" : "N/A")
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

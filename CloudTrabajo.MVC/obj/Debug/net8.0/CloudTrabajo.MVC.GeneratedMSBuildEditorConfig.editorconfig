@@ -1,0 +1,257 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CloudTrabajo.MVC
+build_property.RootNamespace = CloudTrabajo.MVC
+build_property.ProjectDir = D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajo.MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajo.MVC
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Asistencias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpc3RlbmNpYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Asistencias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpc3RlbmNpYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Asistencias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpc3RlbmNpYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Asistencias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpc3RlbmNpYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Asistencias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpc3RlbmNpYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Certificados/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Certificados/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Certificados/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Certificados/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Certificados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Espacios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwYWNpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Espacios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwYWNpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Espacios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwYWNpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Espacios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwYWNpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Espacios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwYWNpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Eventos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Eventos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Eventos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Eventos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Eventos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Inscripciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Inscripciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Inscripciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Inscripciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Inscripciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Pagos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Pagos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Pagos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Pagos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Pagos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Participantes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhbnRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Participantes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhbnRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Participantes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhbnRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Participantes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhbnRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Participantes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhbnRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Ponentes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9uZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Ponentes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9uZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Ponentes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9uZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Ponentes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9uZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Ponentes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9uZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Sesiones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Sesiones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Sesiones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Sesiones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Sesiones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/SesionPonentes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uUG9uZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/SesionPonentes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uUG9uZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/SesionPonentes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uUG9uZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/SesionPonentes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uUG9uZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/SesionPonentes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uUG9uZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cloud Ejercicios/Cloud AppServices/TabajoBimestral/CloudTrabajoBimestral.API/CloudTrabajo.MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-577587qbcb

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "CloudTrabajoBimestral.API\\CloudTrabajoBimestral.API.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "CloudTrabajo.MVC\\CloudTrabajo.MVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
