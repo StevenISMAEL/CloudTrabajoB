@@ -14,12 +14,10 @@ namespace CloudTrabajoBimestral.Models
 
         //FK
         public int sesionId { get; set; }
-        public int inscripcionId {get; set;}
+        public int inscripcionId { get; set; }
 
         //navigation properties
         public Inscripcion? Inscripcion { get; set; }
         public Sesion? Sesion { get; set; }
-
-
     }
 }

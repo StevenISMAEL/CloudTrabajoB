@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CloudTrabajoBimestral.Models
 {
@@ -13,18 +14,16 @@ namespace CloudTrabajoBimestral.Models
         public bool estado { get; set; }
 
         //FK
-        public int EventoId { get; set; }   
+        public int EventoId { get; set; }
+
+        [Column(TypeName = "varchar(20)")]
         public required string Cedula { get; set; }
 
         //navigation properties
-
         public List<Asistencia>? Asistencias { get; set; }
         public List<Pago>? Pagos { get; set; }
         public Participante? Participante { get; set; }
         public List<Certificado>? Certificados { get; set; }
         public Evento? Evento { get; set; }
-
-
-
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CloudTrabajoBimestral.Models
 {
@@ -10,6 +11,8 @@ namespace CloudTrabajoBimestral.Models
     {
         public int Id { get; set; }
         public DateTime fechaEmision { get; set; }
+
+        [Column(TypeName = "text")]
         public string UrlDescarga { get; set; }
 
         //FK

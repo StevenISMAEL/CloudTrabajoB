@@ -1,12 +1,13 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace CloudTrabajoBimestral.API.Migrations
 {
     /// <inheritdoc />
-    public partial class v01 : Migration
+    public partial class v2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,13 +16,13 @@ namespace CloudTrabajoBimestral.API.Migrations
                 name: "Espacio",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Type = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Capacity = table.Column<int>(type: "int", nullable: false),
-                    Location = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Name = table.Column<string>(type: "varchar(255)", nullable: false),
+                    Type = table.Column<string>(type: "varchar(255)", nullable: false),
+                    Description = table.Column<string>(type: "text", nullable: false),
+                    Capacity = table.Column<int>(type: "integer", nullable: false),
+                    Location = table.Column<string>(type: "varchar(255)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -32,14 +33,14 @@ namespace CloudTrabajoBimestral.API.Migrations
                 name: "Evento",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    fechaInicio = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    fechaFin = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    type = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    location = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    maxCapacity = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Name = table.Column<string>(type: "varchar(255)", nullable: false),
+                    fechaInicio = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    fechaFin = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    type = table.Column<string>(type: "varchar(100)", nullable: false),
+                    location = table.Column<string>(type: "varchar(255)", nullable: false),
+                    maxCapacity = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -50,11 +51,11 @@ namespace CloudTrabajoBimestral.API.Migrations
                 name: "Participante",
                 columns: table => new
                 {
-                    Cedula = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Lastname = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Cedula = table.Column<string>(type: "varchar(50)", nullable: false),
+                    Name = table.Column<string>(type: "varchar(100)", nullable: false),
+                    Lastname = table.Column<string>(type: "varchar(100)", nullable: false),
+                    Email = table.Column<string>(type: "varchar(50)", nullable: false),
+                    Phone = table.Column<string>(type: "varchar(50)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -65,13 +66,13 @@ namespace CloudTrabajoBimestral.API.Migrations
                 name: "Ponente",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Lastname = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Especialidad = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Name = table.Column<string>(type: "varchar(100)", nullable: false),
+                    Lastname = table.Column<string>(type: "varchar(100)", nullable: false),
+                    Email = table.Column<string>(type: "varchar(50)", nullable: false),
+                    Phone = table.Column<string>(type: "varchar(50)", nullable: false),
+                    Especialidad = table.Column<string>(type: "varchar(100)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -82,13 +83,13 @@ namespace CloudTrabajoBimestral.API.Migrations
                 name: "Sesion",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    horaInicio = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    horaFin = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    EspacioID = table.Column<int>(type: "int", nullable: false),
-                    EventoID = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Name = table.Column<string>(type: "varchar(255)", nullable: false),
+                    horaInicio = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    horaFin = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    EspacioID = table.Column<int>(type: "integer", nullable: false),
+                    EventoID = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -111,13 +112,13 @@ namespace CloudTrabajoBimestral.API.Migrations
                 name: "Inscripcion",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    fechaInscripcion = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    estado = table.Column<bool>(type: "bit", nullable: false),
-                    EventoId = table.Column<int>(type: "int", nullable: false),
-                    Cedula = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ParticipanteCedula = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    fechaInscripcion = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    estado = table.Column<bool>(type: "boolean", nullable: false),
+                    EventoId = table.Column<int>(type: "integer", nullable: false),
+                    Cedula = table.Column<string>(type: "varchar(20)", nullable: false),
+                    ParticipanteCedula = table.Column<string>(type: "varchar(50)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -139,8 +140,8 @@ namespace CloudTrabajoBimestral.API.Migrations
                 name: "PonenteSesion",
                 columns: table => new
                 {
-                    PonentesId = table.Column<int>(type: "int", nullable: false),
-                    SesionesId = table.Column<int>(type: "int", nullable: false)
+                    PonentesId = table.Column<int>(type: "integer", nullable: false),
+                    SesionesId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -160,15 +161,41 @@ namespace CloudTrabajoBimestral.API.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "SesionPonente",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    SesionId = table.Column<int>(type: "integer", nullable: false),
+                    PonenteId = table.Column<int>(type: "integer", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_SesionPonente", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_SesionPonente_Ponente_PonenteId",
+                        column: x => x.PonenteId,
+                        principalTable: "Ponente",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_SesionPonente_Sesion_SesionId",
+                        column: x => x.SesionId,
+                        principalTable: "Sesion",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Asistencia",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    fechaAsistencia = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    estado = table.Column<bool>(type: "bit", nullable: false),
-                    sesionId = table.Column<int>(type: "int", nullable: false),
-                    inscripcionId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    fechaAsistencia = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    estado = table.Column<bool>(type: "boolean", nullable: false),
+                    sesionId = table.Column<int>(type: "integer", nullable: false),
+                    inscripcionId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -178,24 +205,24 @@ namespace CloudTrabajoBimestral.API.Migrations
                         column: x => x.inscripcionId,
                         principalTable: "Inscripcion",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Asistencia_Sesion_sesionId",
                         column: x => x.sesionId,
                         principalTable: "Sesion",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Certificado",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    fechaEmision = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    UrlDescarga = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    InscripcionID = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    fechaEmision = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    UrlDescarga = table.Column<string>(type: "text", nullable: false),
+                    InscripcionID = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -212,13 +239,13 @@ namespace CloudTrabajoBimestral.API.Migrations
                 name: "Pago",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    monto = table.Column<double>(type: "float", nullable: false),
-                    fechaPago = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    medioPago = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    estado = table.Column<bool>(type: "bit", nullable: false),
-                    InscripcionID = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    monto = table.Column<double>(type: "double precision", nullable: false),
+                    fechaPago = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    medioPago = table.Column<string>(type: "varchar(50)", nullable: false),
+                    estado = table.Column<bool>(type: "boolean", nullable: false),
+                    InscripcionID = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -275,6 +302,16 @@ namespace CloudTrabajoBimestral.API.Migrations
                 name: "IX_Sesion_EventoID",
                 table: "Sesion",
                 column: "EventoID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_SesionPonente_PonenteId",
+                table: "SesionPonente",
+                column: "PonenteId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_SesionPonente_SesionId",
+                table: "SesionPonente",
+                column: "SesionId");
         }
 
         /// <inheritdoc />
@@ -291,6 +328,9 @@ namespace CloudTrabajoBimestral.API.Migrations
 
             migrationBuilder.DropTable(
                 name: "PonenteSesion");
+
+            migrationBuilder.DropTable(
+                name: "SesionPonente");
 
             migrationBuilder.DropTable(
                 name: "Inscripcion");

@@ -237,3 +237,4 @@ D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\
 D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajo.MVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajo.MVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajo.MVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajo.MVC\obj\Debug\net8.0\CloudTrabajo.MVC.sourcelink.json

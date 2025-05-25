@@ -19,3 +19,4 @@ D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\
 D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\TEST\obj\Debug\net8.0\TEST.pdb
 D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\TEST\obj\Debug\net8.0\TEST.genruntimeconfig.cache
 D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\TEST\obj\Debug\net8.0\ref\TEST.dll
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\TEST\obj\Debug\net8.0\TEST.sourcelink.json

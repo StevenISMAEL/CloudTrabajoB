@@ -9,3 +9,4 @@ D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\
 D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\refint\CloudTrabajoBimestral.Models.dll
 D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\CloudTrabajoBimestral.Models.pdb
 D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\ref\CloudTrabajoBimestral.Models.dll
+D:\Cloud Ejercicios\Cloud AppServices\TabajoBimestral\CloudTrabajoBimestral.API\CloudTrabajoBimestral.Models\obj\Debug\net8.0\CloudTrabajoBimestral.Models.sourcelink.json
