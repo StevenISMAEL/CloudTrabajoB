@@ -8,8 +8,8 @@ namespace CloudTrabajo.MVC
         public static void Main(string[] args)
         {
 
-            //var BaseUrl = "https://ejemploblazorapp1202504-aneufacscghfaneq.westus-01.azurewebsites.net/api";
-            var BaseUrl = "https://localhost:7287/api";
+            var BaseUrl = "https://ejemploblazorapp1202504-aneufacscghfaneq.westus-01.azurewebsites.net/api";
+            //var BaseUrl = "https://localhost:7287/api";
             Crud<Asistencia>.EndPoint = $"{BaseUrl}/Asistencias";
             Crud<Certificado>.EndPoint = $"{BaseUrl}/Certificados";
             Crud<Espacio>.EndPoint = $"{BaseUrl}/Espacios";
